@@ -1,6 +1,13 @@
 # 02456_VGGihs_Deep_Ensemble
 A VGGish implementation with Deep Ensemble used for the TUT Acoustic Scene dataset
 
+###Download data samples and pre-trained weights:
+wget http://www.dropbox.com/s/x7t82y3kzmzhdc2/logmel_subset1.pickle
+wget https://www.dropbox.com/s/1gd6gmyjrzo6auj/logmel_subset1_right.pickle
+wget https://www.dropbox.com/s/9lnnuabmy6jqi4d/Eval1_RIGHT.pickle
+wget https://www.dropbox.com/s/6g2ujcajfrrsxja/Eval1.pickle
+
+###Run the notebook
 Open the jupyter notebook A_vggish_Ensemble-Lite. Make sure you are running Python 3.0 and Tensorflow 1.2.
 Data download links are in the script.
 
