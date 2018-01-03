@@ -8,11 +8,11 @@ If you want to run the full dataset the data can be downloaded from [TUT Acousti
 To run just a subset of the data, do the following:
 
 ### Download preprocessed data samples and pretrained weights:
-Pretrained model weights for the original VGGish model (baseline) can be found here:
+If you want to train the model the pretrained model weights for the original VGGish model (baseline) can be found here:
 
 wget https://www.dropbox.com/s/txxoxkuxdc0ivfm/vggish_model.ckpt?dl=0
 
-Pretrained model weights for the final model can be found here (aprox. 660 mb):
+If you want to just test the model the trained model weights for the final model can be found here (aprox. 660 mb):
 
 wget https://www.dropbox.com/sh/9f8gjav0iqkp274/AACXXWlFQ9WEQui9vH72LW6Ja?dl=0
 
