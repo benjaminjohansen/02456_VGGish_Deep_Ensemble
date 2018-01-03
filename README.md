@@ -14,7 +14,7 @@ wget https://www.dropbox.com/s/txxoxkuxdc0ivfm/vggish_model.ckpt?dl=0
 
 Pretrained model weights for the final model can be found here (aprox. 660 mb):
 
-wget https://www.dropbox.com/sh/9f8gjav0iqkp274/AACXXWlFQ9WEQui9vH72LW6Ja?dl=0 
+wget https://www.dropbox.com/sh/9f8gjav0iqkp274/AACXXWlFQ9WEQui9vH72LW6Ja?dl=0
 
 Use the file soundname1.pickle from the folder Data as well.
 
