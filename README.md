@@ -3,7 +3,9 @@ A VGGish implementation with Deep Ensemble used for the TUT Acoustic Scene datas
 
 Due to limit on the size of files that can be uploaded to github links to the data and pretrained weights found on dropbox is given. Due to lack of space on dropbox only a subset of the data is given.
 
-If you want to run the full dataset the data can be downloaded from [TUT Acoustic Scene data set](http://www.cs.tut.fi/sgn/arg/dcase2017/challenge/task-acoustic-scene-classification#audio-dataset). It should then be converted to 16bit with the file 24to16bit.py. Spectrograms and onehot encoded labels can then be created by using the script logmel_converter.py with either vggish_input.py or vggish_input_RIGHT to create mono and right spectrograms, respectively.
+If you want to run the full dataset the data can be downloaded from [TUT Acoustic Scene data set](http://www.cs.tut.fi/sgn/arg/dcase2017/challenge/task-acoustic-scene-classification#audio-dataset). It should then be converted to 16bit with the file 24to16bit.py. Spectrograms and onehot encoded labels can then be created by using the script logmel_converter.py with either vggish_input.py or vggish_input_RIGHT to create mono and right spectrograms, respectively. The file meta.txt should be used to create labels for the development dataset and the file meta_eval.txt should be used to create labels for the evaluation dataset.
+
+The file resultsVisualisation.ipynb is used to create plots of the results.
 
 To run just a subset of the data, do the following:
 
