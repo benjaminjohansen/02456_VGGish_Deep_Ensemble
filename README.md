@@ -3,7 +3,7 @@ A VGGish implementation with Deep Ensemble used for the TUT Acoustic Scene datas
 
 ### Download data samples and trained weights from our final model:
 Pretrained model weights (aprox. 660 mb):
-wget https://www.dropbox.com/s/i5ufh61xzox5f05/VGGish_concate1.ckpt.data-00000-of-00001?dl=0
+wget https://www.dropbox.com/sh/9f8gjav0iqkp274/AACXXWlFQ9WEQui9vH72LW6Ja?dl=0 
 
 If you want to only use the test data, download the following subsample (aprox. 800 mb)
 
