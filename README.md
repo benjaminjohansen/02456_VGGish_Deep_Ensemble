@@ -1,4 +1,4 @@
-# 02456_VGGihs_Deep_Ensemble
+# 02456_VGGish_Deep_Ensemble
 A VGGish implementation with Deep Ensemble used for the TUT Acoustic Scene dataset
 
 ### Download data samples and pre-trained weights:
