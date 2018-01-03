@@ -3,6 +3,8 @@ A VGGish implementation with Deep Ensemble used for the TUT Acoustic Scene datas
 
 Due to limit on the size of files that can be uploaded to github links to the data and pretrained weights found on dropbox is given. Due to lack of space on dropbox only a subset of the data is given.
 
+If you want to run the full dataset the data can be downloaded from [TUT Acoustic Scene data set](http://www.cs.tut.fi/sgn/arg/dcase2017/challenge/task-acoustic-scene-classification#audio-dataset). It should then be converted to 16bit with the file 24to16bit.py. Spectrograms and onehot encoded labels can then be created by using the script logmel_converter.py
+
 ### Download data samples and pretrained weights:
 Pretrained model weights for the original VGGish model (baseline) can be found here:
 
@@ -11,6 +13,8 @@ wget https://www.dropbox.com/s/txxoxkuxdc0ivfm/vggish_model.ckpt?dl=0
 Pretrained model weights for the final model can be found here (aprox. 660 mb):
 
 wget https://www.dropbox.com/sh/9f8gjav0iqkp274/AACXXWlFQ9WEQui9vH72LW6Ja?dl=0 
+
+Use the file soundname1.pickle from the folder Data as well.
 
 If you want to only use the test data, download the following subsample (aprox. 800 mb)
 
@@ -29,7 +33,7 @@ wget https://www.dropbox.com/s/1gd6gmyjrzo6auj/logmel_subset1_right.pickle
 ### Run the notebook
 Open the jupyter notebook A_vggish_Ensemble-Lite. Make sure you are running Python 3.0 and Tensorflow 1.2.
 
-The script will run a lite version of a VGGish Ensemble method to be used on the [TUT Acoustic Scene data set](http://www.cs.tut.fi/sgn/arg/dcase2017/challenge/task-acoustic-scene-classification#audio-dataset). 
+The script will run a lite version (only a subset of the data) of a VGGish Ensemble method to be used on the [TUT Acoustic Scene data set](http://www.cs.tut.fi/sgn/arg/dcase2017/challenge/task-acoustic-scene-classification#audio-dataset). 
 
 The first parts of the script will import the data, split as specified at the competion. For this version, a subset of preprossed data has been added. To run the ful data, use the logmel converter script, and place the files accordingly.
 
