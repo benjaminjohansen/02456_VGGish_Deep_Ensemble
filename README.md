@@ -12,13 +12,13 @@ If you want to train the model the pretrained model weights for the original VGG
 
 wget https://www.dropbox.com/s/txxoxkuxdc0ivfm/vggish_model.ckpt?dl=0
 
-If you want to just test the model the trained model weights for the final model can be found here (aprox. 660 mb):
+If you want to just test the model the trained model weights for the final model can be found here (approx. 660 mb):
 
 wget https://www.dropbox.com/sh/9f8gjav0iqkp274/AACXXWlFQ9WEQui9vH72LW6Ja?dl=0
 
 Use the file soundname1.pickle from the folder Data as well.
 
-If you want to only use the test data, download the following subsample (aprox. 800 mb)
+If you want to only use the test data, download the following subsample (approx. 800 mb)
 
 wget https://www.dropbox.com/s/9lnnuabmy6jqi4d/Eval1_RIGHT.pickle
 
